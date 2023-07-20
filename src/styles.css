@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap');
+
+ :root {
+    --ColorPrincipal : #B100E8;
+    --ColorSecundary : #048AFF;
+    --ColorText : white;
+    --fontLogo : font-family: 'Gruppo', sans-serif;
+    --fontTituls : font-family: 'Gruppo', sans-serif;
+    --fontText : font-family: 'Roboto Condensed', sans-serif;
+ }
+
+
+ body {
+    height: 100%;
+    background-color: #04001E;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.container {
+    background: red ;
+   height: 30rem;
+    padding: 5rem;
+   
+
+ }
