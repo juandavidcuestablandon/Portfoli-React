@@ -3,12 +3,13 @@ const Header = () => {
   return (
     <header>
         <div>
-            <h2>JD.</h2>
+            <h2 className="logo">JD.</h2>
         </div>
         <div>
-            <ul>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Accerca de Mi</a></li>
+            <ul className="navbar">
+                <li><a href="#">PROYECTOS</a></li>
+                <li><a href="#">ACCERCA DE MI</a></li>
+                <li><a href="#">CONTACTA ME </a></li>
             </ul>
         </div>
     </header>

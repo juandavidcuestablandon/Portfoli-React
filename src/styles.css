@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap');
 
+
  :root {
-    --ColorPrincipal : #B100E8;
+    --ColorPrincipal: #B100E8;
     --ColorSecundary : #048AFF;
     --ColorText : white;
-    --fontLogo : font-family: 'Gruppo', sans-serif;
-    --fontTituls : font-family: 'Gruppo', sans-serif;
-    --fontText : font-family: 'Roboto Condensed', sans-serif;
+    --fontLogo : 'Gruppo', sans-serif;
+    --fontTituls : 'Gruppo', sans-serif;
+    --ColorOscuro: #05001E; 
+    --fontText :  'Roboto Condensed', sans-serif;
  }
 
 
@@ -18,12 +20,213 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--ColorText);
  }
 
 .container {
-    background: red ;
-   height: 30rem;
-    padding: 5rem;
+    background-image: url(./multimedia/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40rem;
+    padding: 6.5rem;
+
    
 
  }
+ .container header {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 90%;
+    padding: 1rem;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: .3s;
+
+   
+ }
+
+
+
+.container header .logo {
+    font-family: var(--fontLogo);
+    color: var(--ColorText);
+    font-size: 2rem;
+}
+
+.container header .navbar {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+     list-style-type: none;
+}
+
+.container header .navbar li {
+    margin-left: 3rem;
+    text-decoration: none;  
+    
+}
+
+
+.container header .navbar li a {
+    text-decoration: none;
+    font-family: var(--fontLogo);
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: var(--ColorText) ;
+    backdrop-filter: blur(10px);
+    transition: .5s;
+    font-weight: bold;
+}
+
+.container header .navbar li a:hover{
+    color: var(--ColorPrincipal);
+
+}
+
+
+
+section {
+    display: flex;
+    justify-content:space-between;
+    margin: 3rem;
+}
+
+
+section div h1  {
+    font-size:  5rem;
+    font-family: var(--fontText);
+    margin-bottom: 0;
+    color: var(--ColorSecundary);
+}
+
+section div h2 {
+    margin: 0;
+    font-size: 4rem;
+    font-family: var(--fontText);
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .8rem;
+    color: var(--ColorPrincipal);
+
+}
+
+section div p {
+    font-family: var(--fontLogo);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+section .box {
+    width: 18.5rem;
+    height: 21rem;
+    background: rgb(177,0,232);
+    background: linear-gradient(90deg, rgba(177,0,232,1) 0%, rgba(4,138,255,1) 17%, rgba(177,0,232,1) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section .box img {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    border: 4px solid #2B1511;
+    
+}
+
+
+section .redes {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 1rem;
+   padding: 1rem;
+}
+
+section .redes a  {
+    color: var(--ColorText);
+    font-size: 2rem;
+    margin: 10px;
+    transition: .5s;
+    
+}
+
+section .redes a:hover{
+    color: var(--ColorSecundary);
+}
+
+
+/* projects  */
+
+
+.projects {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects h2 {
+    font-family: var(--fontLogo);
+    
+    font-size: 4rem;
+    color: var(--ColorPrincipal);
+}
+
+.proyectsContent {
+    display: flex;
+  
+}
+
+.projects .box {
+    background-color: var(--ColorText);
+    width: 15rem;
+    margin: 2rem;
+    text-align: center;
+    box-shadow: 1px 1px 10px var(--ColorPrincipal);
+    border-radius: 1rem;
+}
+
+.projects .box p {
+    padding: 1rem;
+    color: var(--ColorOscuro);
+    font-family: var(--fontText);
+}
+
+
+
+.projects .box img {
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+.projects .box div a {
+    color: var(--ColorSecundary);
+    font-size: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+
+
+.projects .box div a:hover{
+    color: var(--ColorOscuro);
+}
+
+
+
+
+
+
+
+
+
+

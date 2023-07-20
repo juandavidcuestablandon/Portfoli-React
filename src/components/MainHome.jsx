@@ -1,24 +1,35 @@
+import perfil from "../multimedia/fotoperfil.jpg"
+
 
 const MainHome = () => {
   return (
-    <>
-        <div>
+    
+    <section>
+              <div>
             <h1>DESARROLLADOR</h1>
             <h2>FONTEND</h2>
             <p>Juan David Cuesta</p>
         </div>
 
         <div>
-            <img src="#" alt="fotouser"  />
-            <div>
-                <a href="#">linkedin</a>
-                <a href="#">intagram</a>
-                <a href="#">github</a>
-                <a href="#">CV</a>
+            <div className="box">
+              <img src={perfil} alt="fotouser" />
             </div>
-
+            
+            <div className="redes">
+                <a href="#"><i className='bx bxl-linkedin'></i></a>
+                <a href="#"><i className='bx bxl-instagram' ></i></a>
+                <a href="#"><i className='bx bxl-github' ></i></a>
+                <a href="#"></a>
+            </div>
         </div>
-    </>
+ 
+    </section>  
+    
+  
+
+
+
   )
 }
 

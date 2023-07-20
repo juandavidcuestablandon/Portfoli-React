@@ -1,4 +1,5 @@
 import PageHome from "./components/PageHome"
+import Projects from "./components/Projects"
 import './styles.css'
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <> 
       <PageHome />
+      <Projects />
     </>
   )
 }
