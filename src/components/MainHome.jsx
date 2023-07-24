@@ -17,9 +17,9 @@ const MainHome = () => {
             </div>
             
             <div className="redes">
-                <a href="#"><i className='bx bxl-linkedin'></i></a>
-                <a href="#"><i className='bx bxl-instagram' ></i></a>
-                <a href="#"><i className='bx bxl-github' ></i></a>
+                <a href="www.linkedin.com/in/juan-david-cuesta5"><i className='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/juandavidc.b/"><i className='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/juandavidcuestablandon"><i className='bx bxl-github' ></i></a>
                 <a href="#"></a>
             </div>
         </div>

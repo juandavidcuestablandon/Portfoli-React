@@ -1,5 +1,6 @@
 import ProjectContent from "./ProjectContent"
-import perfil from "../multimedia/fotoperfil.jpg"
+import filmfinder from "../multimedia/filmfinder.jpg"
+import trivia from "../multimedia/trivialgenius.jpg"
 
 const Projects = () => {
 
@@ -9,23 +10,28 @@ const Projects = () => {
             <h2>PROYECTOS</h2>
             <div className="proyectsContent">
                <ProjectContent 
-               link={'hola'}
-               img={perfil}
-               description={'esta aplicacion la desarrolle con react y estuve creando diferentes utilidades y colocando en practica todo lo aprendido'}
+               link={'https://filmfinderjd.netlify.app'}
+               img={filmfinder}
+               description={'Aplicación de catalogo de peliculas  desarrollada con JavaScript Vanilla HTML CSS '}
+               git={'https://github.com/juandavidcuestablandon/film_finder'}
                />
+
+                <ProjectContent 
+               link={'https://trivialgenius.netlify.app/'}
+               img={trivia}
+               description={'Juego de Preguntas Desarollado con React'}
+               git={'https://github.com/juandavidcuestablandon/Trivial-Genius'}
+               />
+
                 <ProjectContent 
                link={'hola'}
-               img={perfil}
+               img={'#'}
                description={'lorem29'}
                />
+               
                 <ProjectContent 
                link={'hola'}
-               img={perfil}
-               description={'lorem29'}
-               />
-                <ProjectContent 
-               link={'hola'}
-               img={perfil}
+               img={'#'}
                description={'lorem29'}
                />
                
