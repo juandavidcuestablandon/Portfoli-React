@@ -14,6 +14,7 @@ const MainHome = () => {
         <div>
             <div className="box">
               <img src={perfil} alt="fotouser" />
+              <span className="circle-spin"></span>
             </div>
             
             <div className="redes">
