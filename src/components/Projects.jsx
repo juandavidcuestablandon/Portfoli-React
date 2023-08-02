@@ -12,14 +12,14 @@ const Projects = () => {
                <ProjectContent 
                link={'https://filmfinderjd.netlify.app'}
                img={filmfinder}
-               description={'Aplicación de catalogo de peliculas  desarrollada con JavaScript Vanilla HTML CSS '}
+               description={'Aplicación de catalogo de películas  desarrollada con JavaScript Vanilla HTML CSS '}
                git={'https://github.com/juandavidcuestablandon/film_finder'}
                />
 
                 <ProjectContent 
                link={'https://trivialgenius.netlify.app/'}
                img={trivia}
-               description={'Juego de Preguntas Desarollado con React'}
+               description={'Juego de Preguntas Desarrollado con React'}
                git={'https://github.com/juandavidcuestablandon/Trivial-Genius'}
                />
 

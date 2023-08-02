@@ -1,4 +1,4 @@
-import  React, { useState } from "react"
+import   { useState } from "react"
 const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false)
@@ -11,7 +11,7 @@ const Header = () => {
             <ul className={`navbar ${isOpen && "open"}`}>
                 <li><a href="#home">INICIO</a></li>
                 <li><a href="#projects">PROYECTOS</a></li>
-                <li><a href="#about">ACCERCA DE MI</a></li>
+                <li><a href="#about">ACERCA DE MI</a></li>
                 <li><a href="#contact">CONTACTA ME </a></li>
             </ul>
             <div className={`nav_toggle ${isOpen && "open"}`} onClick={ ()  => setIsOpen(!isOpen)} >

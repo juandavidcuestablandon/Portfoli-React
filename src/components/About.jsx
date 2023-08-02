@@ -3,11 +3,11 @@ import Habities from "./Habities"
 const About = () => {
   return (
     <div className="about">
-        <h2>ACCERCA DE MI</h2>
+        <h2>ACERCA DE MI</h2>
          <AboutContent 
             title={'FORMACIONES'}
-            text1={"Desarrollo de Apliciones Web, Frontend-Cifo L'Hospitalet"}
-            text2={"Desarrollo de Apliciones Web, Full-Stack-Netmind"}
+            text1={"Desarrollo de Aplicaciones Web, Frontend-Cifo L'Hospitalet"}
+            text2={"Desarrollo de Aplicaciones Web, Full-Stack-Netmind"}
             text3={"Soporte TI, Google- Coursera"}
             text4={'Bachillerato-Nuestra Señora del Rosario'}
             
