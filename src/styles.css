@@ -336,7 +336,7 @@ section .redes a:hover{
 
 .about .box {
     width: 70%;
-    border: 5px solid var(--ColorPrincipal);
+    border: 2px solid var(--ColorPrincipal);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -399,7 +399,7 @@ section .redes a:hover{
     width: 65%;
     padding: 2rem;
     border-radius:4rem ;
-    border: 5px solid var(--ColorPrincipal);
+    border: 2px solid var(--ColorPrincipal);
 }
 
 .contact form label {
