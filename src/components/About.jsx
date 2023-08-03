@@ -1,15 +1,18 @@
 import AboutContent from "./AboutContent"
 import Habities from "./Habities"
+import {useTranslation} from   "react-i18next"
 const About = () => {
+
+  const {t} = useTranslation();
   return (
     <div className="about">
-        <h2>ACERCA DE MI</h2>
+        <h2>{t('acercademi.title')}</h2>
          <AboutContent 
-            title={'FORMACIONES'}
-            text1={"Desarrollo de Aplicaciones Web, Frontend-Cifo L'Hospitalet"}
-            text2={"Desarrollo de Aplicaciones Web, Full-Stack-Netmind"}
-            text3={"Soporte TI, Google- Coursera"}
-            text4={'Bachillerato-Nuestra Señora del Rosario'}
+            title={t('acercademi.for')}
+            text1={t('acercademi.text1')}
+            text2={t('acercademi.text2')}
+            text3={t('acercademi.text3')}
+            text4={t('acercademi.text4')}
             
             year1={'2023'}
             year2={'2021'}
@@ -21,10 +24,10 @@ const About = () => {
         <Habities
          />
         <AboutContent 
-            title={'EXPERIENCIA'}
-            text2={"Practicas - Indian web"}
-            text3={'Administrativo- Fundación Cepaim'}
-            year2={'6 MESES-2022'}
+            title={t('acercademi.experienciaT')}
+            text2={t('acercademi.experienciatext1')}
+            text3={t('acercademi.experienciatext2')}
+            year2={t('acercademi.time')}
             year3={'2022-2023'}
         
 

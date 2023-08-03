@@ -1,9 +1,13 @@
 import {  useState , useRef} from "react";
 import emailjs from '@emailjs/browser';
+import {useTranslation} from   "react-i18next"
 
 
 
 const Contact = () => {
+
+
+    const {t} = useTranslation();
 
     const form = useRef();
 
@@ -75,13 +79,13 @@ const Contact = () => {
   return (
      
         <section className="contact">
-             <h2 className="h2">Contacta Me!</h2>
+             <h2 className="h2">{t('contacto.title')}</h2>
         <form  ref={form} onSubmit={sendEmail}>
             <div>
                 <label>
-            Ingresa Tu Nombre: 
+            {t('contacto.nom')} 
              <input type="text"
-              placeholder="ingresa tu Nombre.. "
+              placeholder="John "
                name="name" 
                onChange={handleChange}
                />
@@ -91,9 +95,9 @@ const Contact = () => {
 
         <div>
             <label >
-            Ingresa tu Apellido: 
+            {t('contacto.ape')} 
             <input type="text" 
-            placeholder="Ingresa  tu Apellido..." 
+            placeholder="Doe" 
             name="last_name" 
             onChange={handleChange}/>
             </label>
@@ -101,9 +105,9 @@ const Contact = () => {
 
         <div>
         <label >
-            Ingresa tu Email: 
+           {t('contacto.email')} 
               <input type="email" 
-              placeholder="ingrese email" 
+              placeholder="johndoe@example.com" 
               name="email" 
               onChange={handleChange}/> 
               </label>
@@ -111,19 +115,19 @@ const Contact = () => {
 
         <div>
         <label >
-            Mensaje:
+           {t('contacto.mensaje')} 
         <textarea
          name="message" 
          rows={4} cols={40}
          onChange={handleChange} 
-         placeholder="Escribe un mensaje.."
+         placeholder={t('contacto.mensaje')}
         />
         </label>
        
         </div >
 
         <div className="btn">
-            <button type="submit">Enviar</button>
+            <button type="submit">{t('contacto.button')}</button>
         
         </div>
 

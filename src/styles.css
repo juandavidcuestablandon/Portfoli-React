@@ -88,6 +88,18 @@
     
 }
 
+.bandera {
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.bandera:hover{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
 
 .container header .navbar li a {
     text-decoration: none;

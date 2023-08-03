@@ -1,13 +1,15 @@
 import perfil from "../multimedia/fotoperfil.jpg"
+import {useTranslation} from  "react-i18next"
 
 
 const MainHome = () => {
+  const {t} = useTranslation();
   return (
     
     <section>
               <div>
-            <h1>DESARROLLADOR</h1>
-            <h2>FONTEND</h2>
+            <h1>{t('mainhome.title')}</h1>
+            <h2>{t('mainhome.subtitle')}</h2>
             <p>Juan David Cuesta</p>
         </div>
 
