@@ -1,6 +1,7 @@
 import ProjectContent from "./ProjectContent"
 import filmfinder from "../multimedia/filmfinder.jpg"
 import trivia from "../multimedia/trivialgenius.jpg"
+import sneakers from "../multimedia/sneakercity.png"
 import {useTranslation} from   "react-i18next"
 
 const Projects = () => {
@@ -25,16 +26,13 @@ const Projects = () => {
                />
 
                 <ProjectContent 
-               link={'hola'}
-               img={'#'}
-               description={'lorem29'}
+               link={'https://sneakercityjd.netlify.app/'}
+               img={sneakers}
+               description={t('proyectos.protres')}
+               git={'https://github.com/juandavidcuestablandon/Sneakercity'}
                />
                
-                <ProjectContent 
-               link={'hola'}
-               img={'#'}
-               description={'lorem29'}
-               />
+              
                
             </div>
         </div>

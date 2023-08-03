@@ -22,6 +22,7 @@ i18n.use(initReactI18next).init({
               "title" : "PROYECTOS",
               "prouno": "Aplicación de catalogo de películas desarrollada con JavaScript Vanilla HTML CSS" ,
              "prodos" : "Juego de Preguntas Desarrollado con React y CSS",
+             "protres" : "Tienda online de zapatillas desarrollada con React , Bootstrap, CSS y  JavaScript",
             },
             "acercademi" : {
                "title" : "ACERCA DE MI",
@@ -72,6 +73,7 @@ i18n.use(initReactI18next).init({
             "title" : "PROJECTS",
             "prouno": "Movie catalog application developed with JavaScript Vanilla HTML CSS",
             "prodos" : "Quiz Game Developed with React and CSS",
+            "protres" : "Online sneaker store developed with React, Bootstrap, CSS and JavaScript",
          },
          "acercademi" : {
             "title" : "ABOUT ME",

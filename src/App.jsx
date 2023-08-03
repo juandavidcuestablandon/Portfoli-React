@@ -3,10 +3,10 @@ import Projects from "./components/Projects"
 import About from "./components/About"
 import './styles.css'
 import Contact from "./components/Contact"
-import {useTranslation} from   "react-i18next"
+
 function App() {
 
-const {t , i18n} = useTranslation();
+
   return (
     <> 
      
