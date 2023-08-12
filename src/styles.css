@@ -512,6 +512,27 @@ section .redes a:hover{
         width: 70%;
         height: 22rem;
      }
+
+     .about .box{
+        width: 100%;
+        padding: 2rem;
+        transition: .5s;
+     }
+
+
+     .about .box:hover {
+        padding: 38px;
+     }
+
+
+
+     .about .box .habilities img {
+        height: 5rem;
+        width: 5rem;
+     }
+
+
+
 }
 
 
@@ -635,6 +656,10 @@ section .redes a:hover{
 
     .about {
         margin-top: 25rem;
+    }
+
+    .about .box {
+        width: auto;
     }
 
     .about .box li {
